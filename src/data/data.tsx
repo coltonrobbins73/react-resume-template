@@ -69,16 +69,15 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `Colton Robbins`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Seattle based <strong className="text-stone-100">Molecular Biology Scientist</strong>, looking
+        to leverage extensive research experience and strong technical skills into a challenging data scientist role.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
+        In my free time time, you can catch me training for<strong className="text-stone-100">marathons</strong>,
         plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
         <strong className="text-stone-100">Vancouver Island</strong>.
       </p>
@@ -108,12 +107,12 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
+    {label: 'Location', text: 'Seattle, Wa', Icon: MapIcon},
+    {label: 'Age', text: '30', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'American', Icon: FlagIcon},
     {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Study', text: 'Washington State University', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Fred Hutchinson Cancer Research Center', Icon: BuildingOffice2Icon},
   ],
 };
 
