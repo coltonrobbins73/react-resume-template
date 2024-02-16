@@ -73,13 +73,13 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Seattle based <strong className="text-stone-100">Molecular Biology Scientist</strong>, looking
-        to leverage extensive research experience and strong technical skills into a challenging data scientist role.
+        I'm a Seattle based <strong className="text-stone-100">Molecular Biology Scientist</strong>, looking to leverage
+        extensive research experience and strong technical skills into a challenging data scientist role.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training for<strong className="text-stone-100">marathons</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me training for <strong className="text-stone-100">marathons</strong>,
+        plucking my <strong className="text-stone-100">guitar</strong>, or exploring the beautiful{' '}
+        <strong className="text-stone-100">Cascade mountains</strong>.
       </p>
     </>
   ),
@@ -110,7 +110,7 @@ export const aboutData: About = {
     {label: 'Location', text: 'Seattle, Wa', Icon: MapIcon},
     {label: 'Age', text: '30', Icon: CalendarIcon},
     {label: 'Nationality', text: 'American', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Dogs, hiking, music', Icon: SparklesIcon},
     {label: 'Study', text: 'Washington State University', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Fred Hutchinson Cancer Research Center', Icon: BuildingOffice2Icon},
   ],
@@ -129,10 +129,10 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'French',
-        level: 4,
+        level: 2,
       },
       {
-        name: 'Spanish',
+        name: 'German',
         level: 3,
       },
     ],
@@ -142,15 +142,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 9,
+        level: 2,
       },
       {
         name: 'Typescript',
-        level: 7,
+        level: 1,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'Python',
+        level: 7,
       },
     ],
   },
